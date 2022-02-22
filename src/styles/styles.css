@@ -1,0 +1,23 @@
+body {
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.nav-home {
+  padding: 20px 20px;
+}
+
+.nav-btns {
+  padding: 20px 20px;
+  display: flex;
+}
+
+.nav-btn {
+  margin: 10px;
+}
+

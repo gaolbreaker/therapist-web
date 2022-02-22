@@ -1,10 +1,10 @@
 import React from 'react';
+import Navbar from './Navbar.jsx';
 
 const App = () => {
   return (
     <>
-      Hello this is a Therapist's website.
-
+      <Navbar />
     </>
   );
 }
