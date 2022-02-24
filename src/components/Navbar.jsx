@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
     <nav>
       <div className="nav-home">
-        <div className="nav-btn">Shelly Kwong</div>
+        <div className="nav-btn">Shelly Kwong, LCSW</div>
       </div>
       <div className="nav-btns">
         <div className="nav-btn">Home</div>
