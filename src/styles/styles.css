@@ -30,12 +30,45 @@ nav {
 .nav-btns {
   padding: 20px 20px;
   display: flex;
+  flex-direction: row;
 }
 
 .nav-btn {
   margin: 10px;
+  user-select: none;
+  transition: color 1s;
+}
+
+.nav-btn:hover {
+  color: lightgreen;
+  transition: color 1s;
 }
 
 .nav-btn:hover {
   cursor: pointer;
+}
+
+.round-btn {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  display:inline-block;
+  padding: 10px;
+  font-size: 1.2rem;
+  user-select: none;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.round-btn:hover {
+  cursor: pointer;
+  opacity: 0.65;
+  transition: opacity 1s;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .nav-btns {
+    flex-direction: column;
+  }
 }
