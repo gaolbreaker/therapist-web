@@ -15,7 +15,7 @@ const App = () => {
     <>
       <div className="hero" style={heroStyle}>
         <Navbar />
-        <div className="hero-blurb" style={{position: 'absolute', bottom: '50px', left: '50px', fontSize: '24px', width: '400px'}}>
+        <div className="hero-blurb">
           <h2>Neurodivergent autistic female BIPOC Asian therapist <em>for you</em>.</h2>
           <p>Explore how meeting with a neurodivergent, as opposed to neurotypical, therapist can benefit you as a neurodivergent human.</p>
           <div className="round-btn">Get in touch</div>

@@ -67,6 +67,14 @@ nav {
   transition: opacity 1s;
 }
 
+.hero-blurb {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  font-size: 24px;
+  width: 400px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   .nav-btns {
     flex-direction: column;
