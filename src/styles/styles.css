@@ -68,6 +68,25 @@ nav {
   transition: opacity 1s;
 }
 
+.round-btn-green {
+  background-color: rgb(51,80,29);
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  display:inline-block;
+  padding: 10px 20px;
+  font-size: 1.0rem;
+  user-select: none;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.round-btn-green:hover {
+  cursor: pointer;
+  opacity: 0.65;
+  transition: opacity 1s;
+}
+
 .hero-blurb {
   position: absolute;
   bottom: 50px;
@@ -111,15 +130,30 @@ nav {
 
 .quick-about-me-container {
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .quick-about-me-text {
   min-width: 300px;
   color: black;
+  padding: 50px;
+  width: 50%;
+  flex: 1 1 1;
+}
+
+.quick-about-me p {
+  margin: 30px 0;
+  line-height: 2.2rem;
+  font-size: 20px;
 }
 
 .quick-about-me-pic {
-  min-width: 400px;
+  /* min-width: 400px; */
+  overflow: hidden;
+  /* transform: scale(0.5,0.5) */
+  flex: 1 1 1;
+  width: 50%;
+  object-fit: cover;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {

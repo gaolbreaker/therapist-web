@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar.jsx';
 import bgImg from './../assets/bambooforest.png';
+import therapistImg from './../assets/therapist.png';
 
 const heroStyle = {
   background: `rgba(0,0,0,.35) url(${bgImg})`,
@@ -37,13 +38,19 @@ const App = () => {
       <section className="quick-about-me">
         <div className="quick-about-me-container">
           <div className="quick-about-me-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium aperiam cupiditate asperiores doloremque ad alias omnis, dignissimos, id corporis esse cumque explicabo possimus rem unde consequatur voluptate ducimus aliquid?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium aperiam cupiditate asperiores doloremque ad alias omnis, dignissimos, id corporis esse cumque explicabo possimus rem unde consequatur voluptate ducimus aliquid?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium aperiam cupiditate asperiores doloremque ad alias omnis, dignissimos, id corporis esse cumque explicabo possimus rem unde consequatur voluptate ducimus aliquid?
-          </div>
-          <div className="quick-about-me-pic">
+            <h1>Hi, I'm Shelly!</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium aperiam cupiditate asperiores doloremque ad alias omnis, dignissimos, id corporis esse cumque explicabo possimus rem unde consequatur voluptate ducimus aliquid?</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium aperiam cupiditate asperiores doloremque ad alias omnis, dignissimos, id corporis esse cumque explicabo possimus rem unde consequatur voluptate ducimus aliquid?</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium aperiam cupiditate asperiores doloremque ad alias omnis, dignissimos, id corporis esse cumque explicabo possimus rem unde consequatur voluptate ducimus aliquid?</p>
+
+            <div className="round-btn-green">Learn About Me</div>
 
           </div>
+          <img className="quick-about-me-pic" src={therapistImg}>
+            {/* <img src={therapistImg} /> */}
+          </img>
         </div>
       </section>
     </>
