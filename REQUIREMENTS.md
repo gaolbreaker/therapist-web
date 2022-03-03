@@ -1,6 +1,21 @@
 #Requirements
 
 ## Feature Requirements
+[ ] Main page
+  [x] Nav
+  [x] Hero
+  [x] Narrative
+  [x] Testimonial
+  [x] Quick About Me
+  [ ] Product-Brochure
+  [ ] Testimonial-Single
+  [ ] Subscribe-Newsletter
+  [ ] Marquee
+  [ ] Footer
+[ ] About
+[ ] Resources
+[ ] Therapy
+[ ] Contact
 
 [ ] Chat feature... chat with the therapist
 [ ] Leave a message

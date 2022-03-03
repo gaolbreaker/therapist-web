@@ -10,9 +10,10 @@ const Navbar = () => {
         <div className="nav-btn">Shelly Kwong, LCSW</div>
       </div>
       <div className="nav-btns">
-        <div className="nav-btn">Home</div>
+
         <div className="nav-btn">About</div>
-        <div className="nav-btn">Info</div>
+        <div className="nav-btn">Resources</div>
+        <div className="nav-btn">Therapy</div>
         <div className="nav-btn">Rates</div>
         <div className="nav-btn">Contact</div>
       </div>
