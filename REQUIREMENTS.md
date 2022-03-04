@@ -20,6 +20,9 @@
 [ ] Chat feature... chat with the therapist
 [ ] Leave a message
 [ ] Log in feature for client
+  [ ] Basic login system
+  [ ] Submit mood log
+  [ ] Submit other homework
 [ ] Log in feature for therapist
 [ ] Blog feature for therapist
 [ ] Hamburger menu for mobile devices
