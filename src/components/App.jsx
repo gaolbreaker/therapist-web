@@ -53,6 +53,20 @@ const App = () => {
           </img>
         </div>
       </section>
+      <section className="product-brochure">
+        <h1>Neurodiversity-Centered Therapy</h1>
+        <div className="product-brochure-fold-container">
+          <div className="product-brochure-fold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit, exercitationem repellendus quia dolor laborum dolorum voluptate sapiente. Eveniet, sed ipsa et tenetur voluptatem impedit doloribus nesciunt soluta expedita harum?
+          </div>
+          <div className="product-brochure-fold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit, exercitationem repellendus quia dolor laborum dolorum voluptate sapiente. Eveniet, sed ipsa et tenetur voluptatem impedit doloribus nesciunt soluta expedita harum?
+          </div>
+          <div className="product-brochure-fold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit, exercitationem repellendus quia dolor laborum dolorum voluptate sapiente. Eveniet, sed ipsa et tenetur voluptatem impedit doloribus nesciunt soluta expedita harum?
+          </div>
+        </div>
+      </section>
     </>
   );
 }

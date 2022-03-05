@@ -155,6 +155,25 @@ nav {
   object-fit: cover;
 }
 
+.product-brochure {
+  background-color: rgb(200, 179, 132);
+  text-align: center;
+  color: black;
+  padding: 40px;
+}
+
+.product-brochure-fold-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 50px auto;
+}
+
+.product-brochure-fold {
+  width: 30%;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   .nav-btns {
     flex-direction: column;
