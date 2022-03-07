@@ -129,6 +129,7 @@ nav {
 
 .quick-about-me-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
 }
 
@@ -170,8 +171,61 @@ nav {
   margin: 50px auto;
 }
 
-.product-brochure-fold {
-  width: 30%;
+.product-brochure-fold p {
+  margin: 0 0 30px 0;
+  line-height: 1.4rem;
+  font-size: 18px;
+}
+
+.testimonial-single p {
+  text-align: center;
+  margin: 0 0 30px 0;
+  line-height: 2.2rem;
+  font-size: 24px;
+}
+
+.attribution {
+  font-size: 20px !important;
+  margin: 0 !important;
+}
+
+.subscribe-newsletter {
+  background-color: rgb(34, 63, 88);
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+.subscribe-box {
+  background-color: white;
+  text-align: center;
+  margin: 15px auto;
+  padding: 7px;
+  border-radius: 3px;
+  color: black;
+  width:250px;
+}
+
+.subscribe-box p {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+input {
+  margin-right: 5px;
+  padding: 3px;
+}
+
+button {
+  background-color: rgb(34, 63, 88);
+  border-radius: 3px;
+  color: white;
+  padding: 9px;
+  border-style: none;
+}
+
+.fine-text {
+  font-size: smaller;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
@@ -180,5 +234,22 @@ nav {
   }
   .quotes-container {
     flex-direction: column;
+  }
+
+  .product-brochure-fold-container {
+    flex-direction: column;
+  }
+
+  .quick-about-me-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .quick-about-me-pic {
+    width: 100%;
+  }
+
+  .quick-about-me-text {
+    width: 90%
   }
 }

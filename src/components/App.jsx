@@ -57,16 +57,38 @@ const App = () => {
         <h1>Neurodiversity-Centered Therapy</h1>
         <div className="product-brochure-fold-container">
           <div className="product-brochure-fold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit, exercitationem repellendus quia dolor laborum dolorum voluptate sapiente. Eveniet, sed ipsa et tenetur voluptatem impedit doloribus nesciunt soluta expedita harum?
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit, exercitationem repellendus quia dolor laborum dolorum voluptate sapiente. Eveniet, sed ipsa et tenetur voluptatem impedit doloribus nesciunt soluta expedita harum?</p>
+            <div className="round-btn-green">Learn More</div>
           </div>
           <div className="product-brochure-fold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit, exercitationem repellendus quia dolor laborum dolorum voluptate sapiente. Eveniet, sed ipsa et tenetur voluptatem impedit doloribus nesciunt soluta expedita harum?
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit, exercitationem repellendus quia dolor laborum dolorum voluptate sapiente. Eveniet, sed ipsa et tenetur voluptatem impedit doloribus nesciunt soluta expedita harum?</p>
+            <div className="round-btn-green">Learn More</div>
           </div>
           <div className="product-brochure-fold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit, exercitationem repellendus quia dolor laborum dolorum voluptate sapiente. Eveniet, sed ipsa et tenetur voluptatem impedit doloribus nesciunt soluta expedita harum?
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit, exercitationem repellendus quia dolor laborum dolorum voluptate sapiente. Eveniet, sed ipsa et tenetur voluptatem impedit doloribus nesciunt soluta expedita harum?</p>
+            <div className="round-btn-green">Learn More</div>
           </div>
         </div>
+        <div className="round-btn-green">Schedule a call to explore how therapy can help you</div>
       </section>
+      <section className="testimonial-single testimonials">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque ullam cupiditate necessitatibus officia. Nihil earum sit, perspiciatis beatae eaque vel, voluptatibus repudiandae aliquam iure labore hic officiis reiciendis reprehenderit. Eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque ullam cupiditate necessitatibus officia. Nihil earum sit, perspiciatis beatae eaque vel, voluptatibus repudiandae aliquam iure labore hic officiis reiciendis reprehenderit. Eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque ullam cupiditate necessitatibus officia. Nihil earum sit, perspiciatis beatae eaque vel, voluptatibus repudiandae aliquam iure labore hic officiis reiciendis reprehenderit. Eligendi?</p>
+        <p class="attribution">- Therapy Participant</p>
+      </section>
+      <section className="subscribe-newsletter">
+        <h1>Subscribe to our newsletter</h1>
+        <div className="subscribe-box">
+          <h2>Shelly Kwong, LCSW</h2>
+          <p>Sign up for our newsletter, events, announcements, and more!</p>
+          <input type="email" placeholder="Email" />
+          <button>Subscribe</button>
+          <p className="fine-text">You can unsubscribe anytime. For more details, review our Privacy Policy</p>
+        </div>
+      </section>
+
+
     </>
   );
 }
