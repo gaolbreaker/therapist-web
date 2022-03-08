@@ -86,6 +86,9 @@ const App = () => {
           <button>Subscribe</button>
           <p className="fine-text">You can unsubscribe anytime. For more details, review our Privacy Policy</p>
         </div>
+        <div className="marquee">
+          <p>Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~  </p>
+        </div>
       </section>
 
 
