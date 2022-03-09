@@ -90,6 +90,18 @@ const App = () => {
           <p>Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~ Decolonize ~ Dream ~ Abolish ~ Rest ~Heal ~ Relax ~  </p>
         </div>
       </section>
+      <footer>
+        <nav className="footer-container">
+          <div className="footer-left nav-btn" onClick={() => window.scroll({top: 0, left: 0, behavior: 'smooth'})}>
+            Shelly Kwong, LCSW
+          </div>
+          <div className="footer-right nav-btn">
+            &copy; 2022 Shelly Kwong
+          </div>
+        </nav>
+
+
+      </footer>
 
 
     </>

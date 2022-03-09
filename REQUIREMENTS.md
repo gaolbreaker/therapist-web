@@ -7,11 +7,11 @@
   [x] Narrative
   [x] Testimonial
   [x] Quick About Me
-  [ ] Product-Brochure
-  [ ] Testimonial-Single
-  [ ] Subscribe-Newsletter
-  [ ] Marquee
-  [ ] Footer
+  [x] Product-Brochure
+  [x] Testimonial-Single
+  [x] Subscribe-Newsletter
+  [x] Marquee
+  [x] Footer
 [ ] About
 [ ] Resources
 [ ] Therapy
