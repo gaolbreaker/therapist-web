@@ -15,6 +15,7 @@
 [ ] About
 [ ] Resources
 [ ] Therapy
+[ ] Rates
 [ ] Contact
 
 [ ] Chat feature... chat with the therapist
