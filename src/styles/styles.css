@@ -39,7 +39,12 @@ nav {
   transition: color 1s;
 }
 
-.nav-btn:hover {
+.nav-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-btn a:hover {
   color: lightgreen;
   transition: color 1s;
 }
