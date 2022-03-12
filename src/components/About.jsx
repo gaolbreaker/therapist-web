@@ -20,8 +20,7 @@ const About = () => {
         <Navbar />
         <div className="hero-blurb">
           <h2>
-            Neurodivergent autistic female BIPOC Asian therapist{" "}
-            <em>for you</em>.
+            This page will become the about <em>pagesadfsadf</em>.
           </h2>
           <p>
             Explore how meeting with a neurodivergent, as opposed to
