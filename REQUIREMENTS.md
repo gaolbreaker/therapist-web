@@ -12,7 +12,7 @@
   [x] Subscribe-Newsletter
   [x] Marquee
   [x] Footer
-[ ] About
+[in progress] About
 [ ] Resources
 [ ] Therapy
 [ ] Rates
@@ -34,8 +34,8 @@
 [ ] MongoDB
 [ ] Firebase/Firestore
 [ ] Express
-[ ] React
-[ ] React Router
+[x] React
+[x] React Router
 [ ] Node.js
 [ ] Some form of testing
 [ ] Styled Components
