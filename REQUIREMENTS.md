@@ -13,6 +13,7 @@
   [x] Marquee
   [x] Footer
 [in progress] About
+  [ ] Make text black
 [ ] Resources
 [ ] Therapy
 [ ] Rates

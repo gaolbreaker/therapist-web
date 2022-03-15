@@ -5,18 +5,18 @@ import therapistImg from './../assets/therapist.png';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Link, Router } from 'react-router-dom';
 
-const heroStyle = {
-  background: `rgba(0,0,0,.35) url(${bgImg})`,
-  backgroundBlendMode: 'darken',
-  backgroundSize: 'cover',
+const aboutHeroStyle = {
+  background: `rgb(241,233,221)`,
+  // backgroundBlendMode: 'darken',
+  // backgroundSize: 'cover',
   height: '100vh',
-  backgroundRepeat: 'no-repeat',
+  // backgroundRepeat: 'no-repeat',
 }
 
 const About = () => {
   return (
     <>
-      <div className="hero" style={heroStyle}>
+      <div className="about-hero" style={aboutHeroStyle}>
         <Navbar />
         <div className="hero-blurb">
           <h2>

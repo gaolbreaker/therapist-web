@@ -168,7 +168,7 @@ const Home = () => {
           beatae eaque vel, voluptatibus repudiandae aliquam iure labore hic
           officiis reiciendis reprehenderit. Eligendi?
         </p>
-        <p class="attribution">- Therapy Participant</p>
+        <p className="attribution">- Therapy Participant</p>
       </section>
       <section className="subscribe-newsletter">
         <h1>Subscribe to our newsletter</h1>
