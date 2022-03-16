@@ -39,6 +39,12 @@ nav {
   transition: color 1s;
 }
 
+.nav-btn-black {
+  margin: 10px;
+  user-select: none;
+  transition: color 1s;
+}
+
 .nav-btn a {
   color: white;
   text-decoration: none;
@@ -46,6 +52,16 @@ nav {
 
 .nav-btn a:hover {
   color: lightgreen;
+  transition: color 1s;
+}
+
+.nav-btn-black a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-btn-black a:hover {
+  color: darkgreen;
   transition: color 1s;
 }
 

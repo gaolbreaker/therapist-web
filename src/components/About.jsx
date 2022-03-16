@@ -11,13 +11,14 @@ const aboutHeroStyle = {
   // backgroundSize: 'cover',
   height: '100vh',
   // backgroundRepeat: 'no-repeat',
+  color: 'black'
 }
 
 const About = () => {
   return (
     <>
       <div className="about-hero" style={aboutHeroStyle}>
-        <Navbar />
+        <Navbar color="black" />
         <div className="hero-blurb">
           <h2>
             This page will become the about <em>pagesadfsadf</em>.
