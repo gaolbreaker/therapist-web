@@ -16,11 +16,11 @@ const Navbar = ({ color }) => {
       <div className="nav-btns">
 
         <div className={ colorToggle }><Link to='/About'>About</Link></div>
-        <div className={ colorToggle }>Resources</div>
-        <div className={ colorToggle }>Tools</div>
-        <div className={ colorToggle }>Therapy</div>
-        <div className={ colorToggle }>Rates</div>
-        <div className={ colorToggle }>Contact</div>
+        <div className={ colorToggle }><Link to='/Resources'>Resources</Link></div>
+        <div className={ colorToggle }><Link to='/Tools'>Tools</Link></div>
+        <div className={ colorToggle }><Link to='/Therapy'>Therapy</Link></div>
+        <div className={ colorToggle }><Link to='/Rates'>Rates</Link></div>
+        <div className={ colorToggle }><Link to='/Contact'>Contact</Link></div>
       </div>
     </nav>
   </>
