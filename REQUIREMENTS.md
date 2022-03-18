@@ -12,8 +12,9 @@
   [x] Subscribe-Newsletter
   [x] Marquee
   [x] Footer
-[in progress] About
-  [ ] Make text black
+  [in progress] About
+    [x] Make text black
+    [ ] fill in sections of About
 [ ] Resources
 [ ] Therapy
 [ ] Rates

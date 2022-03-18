@@ -5,7 +5,7 @@ import { Link, Outlet } from 'react-router-dom';
 const Navbar = ({ color }) => {
 
   const colorToggle = color === 'black' ? 'nav-btn-black' : 'nav-btn';
-  // const colorToggle = 'nav-btn';
+
 
   return (
     <>
